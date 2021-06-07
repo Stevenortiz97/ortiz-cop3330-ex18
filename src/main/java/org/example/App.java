@@ -47,17 +47,17 @@ public class App {
 
         if (input.equals("C") || input.equals("c")) {
 
-            int tempFahrenheit = fahrenheit();
+            int fahrenheit1 = fahrenheit();
 
-            int C = ((tempFahrenheit-32)*5/9);
+            int C = ((fahrenheit1-32)*5/9);
 
             System.out.print("The temperature in Celsius is "+C+".");
 
         } else if (input.equals("F") || input.equals("f")) {
 
-            int tempCelsius = celsius();
+            int celsius1 = celsius();
 
-            int F=((tempCelsius *9/5)+32);
+            int F=((celsius1 *9/5)+32);
 
             System.out.print("The temperature in Fahrenheit is "+F+".");
         }
